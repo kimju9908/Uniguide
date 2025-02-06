@@ -20,7 +20,7 @@ const PostListMain = ({active}) => {
 	const role = useSelector(state => state.persistent.role);
 	const [confirm, setConfirm] = useState({});
 	const dispatch = useDispatch();
-
+	const searchOption = "some value"; // 적절한 초기값 설정
 	// URL에서 search와 searchOption을 추출하고, context 상태를 업데이트
 	useEffect(() => {
 		if (search) {
