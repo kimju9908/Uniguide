@@ -106,17 +106,5 @@ const Commons = {
   },
 };
 
-// 	IsLogin: async () => {
-// 		const accessToken = Commons.getAccessToken();
-// 		return await axiosApi.get(
-// 		  Commons.Capstone + `/auth/isLogin/${accessToken}`,
-// 		  {
-// 			headers: {
-// 			  "Content-Type": "application/json",
-// 			  Authorization: "Bearer " + accessToken,
-// 			},
-// 		  }
-// 		);
-// 	  },
 
 export default Commons;
